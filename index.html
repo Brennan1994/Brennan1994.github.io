@@ -1,33 +1,25 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
 <head>
-	<!-- We pasted the generated code from the Issue Collector here, after choosing a custom trigger -->
-
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css"
-		integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-	<!-- This is the script for the issue collector feedback form -->
-
-	<script type="text/javascript"
-		src="<Jira URL>/s/en_US-ydn9lh-418945332/803/1088/1.2/_/download/batch/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector.js?collectorId=d03d7bd1"></script>
-
-	<!-- This is the script for specifying the custom trigger.  We've replaced 'myCustomTrigger' with 'feedback-button' -->
-
-	<script type="text/javascript">
-		window.ATL_JQ_PAGE_PROPS = {
-			"triggerFunction": function (showCollectorDialog) {
-				//Requries that jQuery is available! 
-				jQuery("#feedback-button").click(function (e) {
-					e.preventDefault();
-					showCollectorDialog();
-				});
-			}
-		};
-	</script>
-
-
+	<meta charset="UTF-8">
+	<meta name="author" content="Brennan Beam">
+	<meta name="description" content="Brennan Beam's Dashboard">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Brennan Beam's Dashboard</title>
 </head>
 
 <body>
-
-	<h2>Jira Issue Collector Demo</h2>
-	<a href="#" id="feedback-button" class='btn btn-primary btn-large'>Report feedback</a>
+	<h1>Brennan Beam's Dashboard</h1>
+	<p>
+		My name is Brennan Beam and I am very smart. <br>
+		Here is a list of things I am good at: <br>
+		<ul>
+			<li>Being smart</li>
+			<li>Being cool</li>
+			<li>Being good at things</li>
+	</p>
 </body>
+
+</html>
